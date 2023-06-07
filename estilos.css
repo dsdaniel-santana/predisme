@@ -1,0 +1,303 @@
+/* TUDO O QUE VOCÊ ESCREVERÁ AQUI DENTRO
+É CSS! (REGRAS CSS, com seletores, propriedades e
+valores) */
+
+body { 
+    background: linear-gradient(lightblue, #7262BB);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+}
+
+
+/* Seletor ID/IDentificado */
+#container {
+    width: 70%;
+    margin: auto;
+    background-color: #FFFACD;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: black 1px 1px 50px;
+}
+
+h1 {
+    background-color: #50467B;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+/* Grupo de seletores */
+figcaption, p, h3  { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 { 
+    background: linear-gradient(to left, #50467B, rgba(0, 0, 139, 0));
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Seletor Classe */
+.centralizar { text-align: center; }
+
+.borda-arredondada { border-radius: 8px; }
+.sombra-texto { text-shadow: black 2px 2px 5px; }
+.destaque {
+    background-color: #7262BB;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+
+figure {
+    /* Reset de espaçamentos */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Tornando as imagens flexíveis/responsivas */
+img { max-width: 100%; }
+
+/* nav { text-align: center;  } */
+
+/* Regra de estado inicial do link 
+(Seletor descendente) */
+/* nav a { 
+    background-color: lightblue;
+    color: #50467B;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    transition: 2s;
+
+    /* Necessário para funcionar
+    o transform */
+    /* display: inline-block;
+} */ 
+
+/* Regra de acionamento do link
+PSEUDO-CLASSE :hover (passar o mouse) */
+/* nav a:hover {
+    background-color: #50467B;
+    color: lightblue;
+    
+    transform: 
+        translateY(-10px)
+        scale(1.2)
+        rotate(5deg);
+    
+    box-shadow: black 0 0 10px;
+} */
+
+.historia{text-align: center;}
+
+.historia {
+    background-color: #E9B010;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.format img {
+    filter: grayscale(100%);
+    border-radius: 50%;
+    box-shadow: black 0 0 50px;
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+
+
+
+.format img:hover{
+    transform: scale(1);
+    filter: grayscale(0);
+
+}
+
+form {
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+    background-color: #FFFACD;
+    border-radius: 8px;
+}
+
+input:not([type=radio]):not([type=checkbox]), select, textarea {
+    border: none;
+    padding: 0.5%;
+    width: 100%;
+    box-shadow: grey 0 0 10px;
+    height: 45px;
+}
+
+textarea {height: auto;}
+
+label {font-size: 1rem;}
+
+form div {margin-top: 1rem;}
+
+
+
+
+.historia h2 {
+    color: #50467B;
+    text-shadow: black 1px 1px 3px;
+} 
+
+.historia iframe {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 2rem;
+}
+
+.localizacao iframe {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+
+  header {
+    /* Deixar o cabeçalho
+    fixo no topo da página */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #7262BB;
+    border-radius: 10px;
+}
+
+/* Ativando flex somente para
+o limitador que está dentro do header */
+header .limitador {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 a {
+    color: #0d0000;
+    font-size: 1.2rem;
+    padding: 1rem;
+    display: inline-block;
+}
+
+nav h2 a:hover, nav h2 a:focus,  
+.menu a:hover, .menu a:focus     {
+    background-color: #bbbbbb;
+}
+
+.menu {  /* lista de links */
+    list-style: none; 
+
+    /* Esta propriedade
+    será usada posteriormente
+    para esconder a lista de links */
+    display: none;
+}
+
+.menu a {
+    color: #131A22;
+    font-weight: bold;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ATENÇÃO!
+Esta regra abaixo somente irá
+funcionar com o auxílio de programação
+JS.
+
+Objetivo: quando duas classes estiverem
+combinadas ("menu" e "aberto"), o menu
+será exibido completamente. */
+.menu.aberto {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+@media screen and (min-width: 530px){
+    nav h2 {display: none;}
+    .menu {display: flex;}
+    .menu li{width: 100%;}
+    nav {width: 70%;}
+    .front-end figure img {height: 150px;}
+}
+/*
+Para telas a partir de 500px, faça::after
+-esconder a palavra "Menu"
+-habilitar o flex para a classe menu (lista)
+-definir largura 70% para o elemento nav
+- ldefinir largura 100% para os itens dentro daista menu
+-reduzir a altura imagens contidas no front-end para 150px
+*/
+
+
+
+@media screen and (min-width: 800px){
+    html {font-size: 18px;}
+    .limitador {max-width: 1100px;}
+}
+
+.limitador {
+    width: 95vw;
+    margin: auto;
+    background: linear-gradient(#7262BB, #7262BB);
+    border-radius: 10px;
+}
+
+.slider {
+    padding: 30px;
+    text-align: center;
+        width: 640px;
+    margin: auto;
+}
+
+    figure { margin: 0;}
+
+    h1 a {
+        background-color: #ff9900;
+        color: #fffffa;
+        border-radius: 5px;
+        padding: 0.3rem 1rem;
+    }
+
+    a { text-decoration: none; }
+
+    h1 {
+        font-family: Raleway, sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+
+.kaiky {
+    margin: 5px;
+    padding: 5px;
+    align-items: center;
+    border-radius: 8px; 
+}
