@@ -32,12 +32,14 @@
                 <ul class="menu">
 
 
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="ansiedade.php">Ansiedade</a></li>
                     <li><a href="demencia.php">Demência</a></li>
                     <li><a href="dependencia.php">Dependência</a></li>
                     <li><a href="depressao.php">Depressão</a></li>
                     <li><a href="disturbio.php">Distúrbios</a></li>
                     <li><a href="retardo_mental.php">Retardo</a></li>      
+                    <li><a href="blog.php">Blog</a></li>
                     <li><a href="contato.php">Contato</a></li>
 
                 </ul>

@@ -44,5 +44,6 @@ require "includes/cabecalho.php";
     <p>É importante lembrar que o estresse em si não é necessariamente ruim. Na verdade, em algumas situações, ele pode ajudar a pessoa a lidar com desafios e até mesmo a melhorar seu desempenho. No entanto, quando o estresse se torna crônico e não é gerenciado adequadamente, ele pode ter efeitos negativos significativos na saúde física e mental da pessoa. Por isso, é importante reconhecer os sinais de estresse contínuo e procurar ajuda profissional se necessário.
     </p>
     
-</body>
-</html>
+    <?php
+require_once "includes/rodape.php";
+?>

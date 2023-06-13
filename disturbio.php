@@ -38,5 +38,6 @@ require "includes/cabecalho.php";
 
     </div>
     
-</body>
-</html>
+    <?php
+require_once "includes/rodape.php";
+?>

@@ -2,13 +2,12 @@
 require "includes/cabecalho.php";
 ?>
     
-    <main>
-        <article class="conteudo limitador">
+    <div id="container"> 
             <h1>Contato</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores similique voluptates, est, libero
             </p>
 
-            <form action="https://formspree.io/f/xeqwvbwd" method="post">
+            <form action="https://formspree.io/f/mayzrqwg" method="post">
 
                 <div>
                     <label for="nome">Nome:</label>
@@ -91,7 +90,7 @@ require "includes/cabecalho.php";
                         <option>Dúvidas</option>
                         <option>Elogios</option>
                         <option>Reclamações</option>
-                        <option>Outros<contato.html /option>
+                        <option>Outros</option>
                     </select>
                 </div>
 
@@ -107,25 +106,8 @@ require "includes/cabecalho.php";
 
 
             </form>
+            </div>
 
-
-        </article>
-
-    </main>
-
-    <footer>
-        <p>Simplicity é um site fictício desenvolvido educacionalmente <br>
-            Senac Penha - 2023</p>
-    </footer>
-
-    <!-- Importando Biblioteca J Query -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- Importando o plugin jQuery Mask -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/contato.js"></script>
-
-
-</body>
-
-</html>
+    <?php
+require_once "includes/rodape.php";
+?>

@@ -162,9 +162,7 @@ require "includes/cabecalho.php";
         </ul>
 
     </div>
-
-
-
-</body>
-
-</html>
+    
+    <?php
+require_once "includes/rodape.php";
+?>
