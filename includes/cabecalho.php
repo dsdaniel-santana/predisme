@@ -29,19 +29,25 @@
 
             <nav>
                 <h2><a href="" class="icone"> Menu &equiv; </a></h2>
-                <ul class="menu">
+                <ul class="menu">   
 
 
+ 
                     <li><a href="index.php">Home</a></li>
+                                        
+                    <li><a href="index.php">Dificuldades Emocionais</a>                    
+                    
+                    <ul class="submenu">
                     <li><a href="ansiedade.php">Ansiedade</a></li>
                     <li><a href="demencia.php">Demência</a></li>
                     <li><a href="dependencia.php">Dependência</a></li>
                     <li><a href="depressao.php">Depressão</a></li>
                     <li><a href="disturbio.php">Distúrbios</a></li>
                     <li><a href="retardo_mental.php">Retardo</a></li>      
-                    <li><a href="blog.php">Blog</a></li>
-                    <li><a href="contato.php">Contato</a></li>
+                    </ul></li>
 
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="contato.php">Contato</a></li>  
                 </ul>
             </nav>
         </div>

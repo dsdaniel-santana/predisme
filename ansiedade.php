@@ -37,15 +37,15 @@ require "includes/cabecalho.php";
     <h2>Uma em cada três pessoas tem um transtorno mental, como depressão, ansiedade e doença de Alzheimer</h2>
 
 
-    <p>Ansiedade é uma resposta emocional normal que todos nós experimentamos em situações estressantes ou
+    <p class="centralizar">Ansiedade é uma resposta emocional normal que todos nós experimentamos em situações estressantes ou
         desafiadoras. É uma sensação de apreensão, inquietação e preocupação em relação ao futuro ou a eventos
         incertos. No entanto, quando a ansiedade é intensa, persistente e interfere nas atividades diárias, pode ser
         um transtorno de ansiedade.</p>
-    <p>Os transtornos de ansiedade são condições psicológicas que envolvem sentimentos de medo e apreensão
+    <p class="centralizar">Os transtornos de ansiedade são condições psicológicas que envolvem sentimentos de medo e apreensão
         excessivos. Existem vários tipos de transtornos de ansiedade, incluindo transtorno de ansiedade
         generalizada, transtorno obsessivo-compulsivo, transtorno de pânico, transtorno de estresse pós-traumático e
         fobia social.</p>
-    <p>Os sintomas físicos da ansiedade incluem palpitações, sudorese, tremores, tensão muscular, fadiga e insônia.
+    <p class="centralizar">Os sintomas físicos da ansiedade incluem palpitações, sudorese, tremores, tensão muscular, fadiga e insônia.
         Os sintomas psicológicos incluem preocupação excessiva, medo, irritabilidade e dificuldade em se concentrar.
         O tratamento da ansiedade pode incluir terapia cognitivo-comportamental, medicação e técnicas de
         relaxamento, como exercícios de respiração profunda e meditação.</p>
@@ -53,7 +53,7 @@ require "includes/cabecalho.php";
     <h3 class="centralizar">Tipos de Ansiedade</h3>
 
 
-    <p>Existem vários tipos de transtornos de ansiedade, cada um com suas próprias características e sintomas. Os
+    <p class="centralizar">Existem vários tipos de transtornos de ansiedade, cada um com suas próprias características e sintomas. Os
         principais tipos de ansiedade são:</p>
 
     <figure><img src="imagens/danielpexels-anna-shvets-4226221.jpg" width="300px"></figure>

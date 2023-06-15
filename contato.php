@@ -23,6 +23,7 @@ if(isset($_POST['enviar'])){
     $estado = $_POST['estado'];
     /* $assunto = $_POST['assunto']; */
     $mensagem = $_POST['mensagem'];
+
     //variáveis pra cada caenderecovariáveis penderecompo
 //
 //
@@ -32,7 +33,7 @@ if(isset($_POST['enviar'])){
     mysqli_query($conexao, "INSERT INTO contato (nome,email,telefone, informativos, interesses, cidade, estado, mensagem) VALUES('$nome','$email', '$telefone', '$informativos', '$interesses', '$cidade', '$estado', '$mensagem')" ) or die (mysqli_error($conexao));
 
     // redirecionar ou apenas mostrar mensagem
-        echo "Dados Enviados";
+        //echo "Dados Enviados";
 
 
 }

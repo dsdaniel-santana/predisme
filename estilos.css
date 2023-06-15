@@ -22,7 +22,7 @@ body {
     width: 80%;
     margin: 50px auto;
     background-color: #FFFACD;
-    padding: auto;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: black 1px 1px 50px;
     flex: 1;
@@ -185,7 +185,6 @@ form div {margin-top: 1rem;}
     /* Deixar o cabeçalho
     fixo no topo da página */
     position: sticky;
-    top: 0;
     z-index: 8;
     background: #7262BB;
     border-radius: 10px;
@@ -193,6 +192,11 @@ form div {margin-top: 1rem;}
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0;
+
+    
+
+    
 
 
     
@@ -233,7 +237,7 @@ nav h2 a:hover, nav h2 a:focus,
     color: #131A22;
     font-weight: bold;
     display: flex;
-    height: 50px;
+    height: 60px;
     justify-content: center;
     align-items: center;
     padding-left: 15px;
@@ -259,7 +263,7 @@ será exibido completamente. */
     left: 0;
 }
 
-@media screen and (min-width: 1450px){
+@media screen and (min-width: 530px){
     nav h2 {display: none;}
     .menu {display: flex;}
     .menu li{width: 100%;}
@@ -367,5 +371,76 @@ footer {
     
     }
 
+    .submenu {
+        background-color: #fff;
+        padding: 5px;
+      }
+     
+     
 
+      /* .menu li:hover .submenu {
+        display: block;
+      } */
 
+      .menu li {
+        display: inline-block;
+        position: relative;
+      }
+
+      .submenu li {
+        display: block;
+      }
+      
+      .menu li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+      }
+      
+
+    
+@media screen and (min-width: 530px) {
+    .submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        padding: 5px;
+      }
+    
+    .menu li:hover .submenu {
+        display: block;
+    }    
+}
+
+.table {
+border-collapse: separate;
+    text-indent: initial;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    font-size: initial;
+    font-family: monospace;
+    tab-size: 4;
+    border-spacing: 0px;
+}
+
+.tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table, th, td {
+    border: solid 2px black;
+
+    /* Remove espaçamento entre as bordas */
+    border-collapse: collapse;
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}

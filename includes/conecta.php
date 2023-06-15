@@ -19,6 +19,6 @@ if (!$conexao ){
 
 }  else {
     //Senão, deu tudo certo!
-    echo "<p>Beleza, banco conectado!</p>"; 
+    //echo "<p>Beleza, banco conectado!</p>"; 
 
 }; 

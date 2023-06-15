@@ -5,6 +5,7 @@
 
 
 
+
     <div class="rod">
         <article>
             <h4>
@@ -19,6 +20,10 @@
                     <img class="foto" src="imagens/ponto_de_interrogacao.jpg" alt="">
                 </a>
             </figure>
+
+            <a href="login.php">
+ Acesso Restrito
+</a>
         </article>
 
        
